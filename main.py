@@ -87,7 +87,7 @@ def get_movie():
 
         headers = {
                     "accept": "application/json",
-                   "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0Y2FiMmNlNzY2YWRlY2RlY2M5YWJmNzQ1YmIyYmU2MiIsInN1YiI6IjY1ZDc3ZjVhOTFmMGVhMDE4NWU2NzQ0OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FRxDzg1Thazrk4TuIcG1rxIHLI3UOCbeWOcwN-eOgvw"
+                   "Authorization": AUTHORIZATION_KEY
                    }
         params = {
                  "movie_id": movie_api_id
